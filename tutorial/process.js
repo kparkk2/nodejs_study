@@ -1,0 +1,16 @@
+var args = process.argv;
+var env = process.env;
+var version = process.version;
+var versions = process.versions;
+var arch = process.arch;
+var platform = process.platform;
+console.log( '\u001b[34m' );
+console.log( 'args: %s\n', args );
+console.log( 'env: %s\n', env );
+console.log( 'version: %s\n', version );
+console.log( 'versions: %s\n', versions );
+console.log( 'arch: %s\n', arch );
+console.log( 'platform: %s\n', platform );
+console.log( 'memory usage: %s\n', process.memoryUsage() );
+console.log( 'uptime: %s\n', process.uptime() );
+console.log( '\u001b[0m' );
