@@ -43,6 +43,7 @@ void main(int argc, char* argv[]){
         hsum = 1177;
         pasum = 3838;
         gsum = 894;
+        TRY = 10000000;
     }
 
     HperPA = (double) hsum / (double) pasum;
